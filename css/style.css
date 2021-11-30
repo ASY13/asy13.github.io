@@ -1,0 +1,98 @@
+
+ a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: white;
+}
+.backgroundhp{
+    display: grid;
+    justify-content: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-image: url("../img/theme.png"); 
+    /*.. returns a folder*/
+
+}
+.bgall{
+    display: grid;
+    color: white;
+    justify-content: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: orange;
+}
+.photosgithub{
+    width: 300px;
+    height:300px;
+}
+.textogithub{
+    width: 400px;
+    font-weight: bold;
+    height: auto;
+}
+/* .test2{
+   
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    font-size: large;
+    color: white;
+    background-color: orange; 
+    padding-top: 240px;
+} */
+.navbar{
+    display:grid;
+    grid-gap: 10px;
+    grid-template-columns:auto auto auto auto;
+    padding: 10px;
+}
+.item-navbar{
+    font-size: 40px;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 30px;
+}
+.portfolio-center{
+    display:grid;
+    grid-template-columns:auto auto auto;
+    justify-content: center;
+    padding-top: 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.sizeofhpimg{
+    width:100px;
+    height:100px;
+}
+.about-me{
+    display:grid;
+    grid-template-columns:auto;
+    justify-content: center;
+    grid-row-gap: 20px;
+    grid-column-gap: 50px;
+}
+.googlebar{
+    display:grid;
+    justify-content:center;
+    width: 810px;
+    height: 125px;px;
+}
+.index{
+    display:grid;
+    grid-template-columns: auto auto auto auto auto;
+    text-decoration: none;
+}
+
+.holamundo{
+    display:grid;
+    justify-content: center ;
+}
+.blogphotosize{
+    width: 400px;
+    height: 400px;
+}
+.flexcontainer{
+    display:flex;
+    flex-wrap:nowrap;
+}
+.flexcontainer > homepageicons{
+    width: 100px;
+    line-height: 100px;
+
+    }
